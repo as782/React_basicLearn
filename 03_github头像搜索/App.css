@@ -1,0 +1,54 @@
+.container {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-left: 40px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+}
+
+
+.content {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.list {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+.list h2{
+    background-color: skyblue;
+}
+.list .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.list img {
+    width: 200px;
+    height: 200px;
+}

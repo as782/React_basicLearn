@@ -1,0 +1,66 @@
+ 
+/* App */
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    margin: 100px auto;
+    width: 1200px;
+    border: 1px solid #babecc;
+    background-color: #ebecf0;
+    border-radius: 10px;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+}
+
+.wrop {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #61677c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #ebecf0;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+}
+
+.btn:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.btn:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.delBtn {
+    display: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+
+}
+
+.delBtn:active {
+    color: #61677c;
+    background-color: #ebecf0;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+
+
+

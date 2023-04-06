@@ -1,0 +1,31 @@
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2b2a2a;
+    margin: 10px 5px;
+    font-size: 12px;
+}
+
+.footer .selectAll {
+    display: flex;
+    align-items: center;
+}
+
+.footer .selectAll input {
+    margin-left: 10px;
+}
+
+.delALL button {
+    color: #fff;
+    background-color: red;
+}
+
+.delALL button:active {
+    color: #61677c;
+    background-color: #ebecf0;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+ 
